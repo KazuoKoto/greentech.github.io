@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.css">
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".button-collapse").sideNav();
+        });
+    </script>
+    <style>
+        .flex {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        
+        main {
+            flex: 1 0 auto;
+        }
+        
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: url(fonts/ico/MaterialIcons-Regular.eot);
+            /* For IE6-8 */
+            src: local('Material Icons'), local('fonts/ico/MaterialIcons-Regular'), url(fonts/ico/MaterialIcons-Regular.woff2) format('woff2'), url(fonts/ico/MaterialIcons-Regular.woff) format('woff'), url(fonts/ico/MaterialIcons-Regular.ttf) format('truetype');
+        }
+        
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            /* Preferred icon size */
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+            /* Support for all WebKit browsers. */
+            -webkit-font-smoothing: antialiased;
+            /* Support for Safari and Chrome. */
+            text-rendering: optimizeLegibility;
+            /* Support for Firefox. */
+            -moz-osx-font-smoothing: grayscale;
+            /* Support for IE. */
+            font-feature-settings: 'liga';
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex">
+        <header>
+            <div class="navbar-fixed">
+                <nav class="nav-extended">
+                    <div class="nav-wrapper">
+                        <a href="index.html" class="brand-logo">Green Tech</a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="Introduction.html">Introduction</a></li>
+                            <li><a href="Inventions.html">Inventions</a></li>
+                            <li><a href="References.html">References</a></li>
+                            <li><a href="AboutUs.html">About Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="Introduction.html">Introduction</a></li>
+                <li><a href="Inventions.html">Inventions</a></li>
+                <li><a href="References.html">References</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+            </ul>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="card-panel col s12 m12 l12">
+                        <h4>Introduction</h4>
+                        <div class="divider"></div>
+                        <div class="section">
+                            <p class="flow-text">The effect of technology on environment is so huge that there is drastic climate changes around the world. There is damage in the form of global warming, extinction of birds, plants and also greater propensity for diseases. </p>
+                            <p class="flow-text">Nowadays, many technologies inventors concern about implementing the eco-friendly technology on their product. Also known as clean tech, green tech and environmental tech, eco-friendly technology can help preserve the environment through energy efficiency and reduction of harmful waste. Green tech innovators use the latest environmental science and green chemistry to reduce the harmful impact of human activity on the earth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2017 NOOBIE Designer Sdn. Bhd.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
